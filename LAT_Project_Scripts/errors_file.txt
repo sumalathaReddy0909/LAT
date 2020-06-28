@@ -1,0 +1,14 @@
+IDENTIFIED ERROR MESSAGES IN THE GIVEN LOG ALONG WITH 2 LINES ABOVE AND BELOW THE ERROR: 
+
+ERROR#1: 
+12-13 19:43:43.865  3459  3459 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+12-13 19:43:43.865  3459  3459 E AndroidRuntime: FATAL EXCEPTION: main
+12-13 19:43:43.865  3459  3459 E AndroidRuntime: Process: org.codeaurora.snapcam, PID: 3459
+12-13 19:43:43.865  3459  3459 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraActivity}: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+ERROR#2: 
+12-13 19:43:46.446  1253  2107 W BackupManagerService: dataChanged but no participant pkg='org.codeaurora.snapcam' uid=10025
+12-13 19:43:46.455  3523  3523 D AndroidRuntime: Shutting down VM
+12-13 19:43:46.455  3523  3523 E AndroidRuntime: FATAL EXCEPTION: main
+12-13 19:43:46.455  3523  3523 E AndroidRuntime: Process: org.codeaurora.snapcam, PID: 3523
+12-13 19:43:46.455  3523  3523 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{org.codeaurora.snapcam/com.android.camera.CameraActivity}: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
